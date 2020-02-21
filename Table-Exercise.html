@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Tables</title>
+	<style>
+
+body {
+			background-color:      pink;
+			background-image:      url('TrevorLinden.jpg');
+			background-repeat:     no-repeat;
+			background-size:       cover;
+			background-attachment: fixed;
+			background-position:   center;
+		}
+
+div {
+			background-color: #ed865a ;
+			border:			  1px solid black;
+			box-shadow:		  -20px 20px 40px black;
+			padding: 		  20px;
+			position:         absolute;
+			right:            400px;
+			top:              40px;
+			width:            450px;
+			margin: auto;
+		}
+
+table, th, td{
+			border-bottom: 2px solid #DDDDDD;
+			text-align: center;
+			}
+
+table{
+			border-collapse: collapse;
+			width: 400px;
+			margin: auto;
+			}
+
+th, td{
+				padding: 10px;
+			}
+
+tr:nth-child(even){
+		background-color: rgb(255, 0, 0);
+	}
+
+tr:nth-child(odd){
+		background-color: rgb(229, 243, 248);
+	}
+
+td:hover{
+	background-color: #3b4cca;
+	color: white;
+}
+
+th{
+	background-color: yellow;
+	color: brown;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<div>
+	   <table>
+		<tr>
+			<th> Pokemon </th>          <th> HP </th> <th> Attack  </th> <th>Defense </th>  <th> Sp. Atk</th> <th>Sp. Def </th> <th> Speed</th>
+		</tr>
+		<tr>
+			<td><b> Braviary </b> </td> <td>100 </td>  <td>123 </td>     <td>75 </td>         <td>57 </td>     <td>75 </td>      <td>80</td>
+		</tr>
+		<tr>
+			<td><b> Rapidash </b></td>	<td>65 </td>   <td> 100 </td>    <td>70 </td>         <td> 80 </td>    <td>80 </td>      <td> 105 </td>
+		</tr>
+		<tr>
+			<td><b>Azumarill </b></td>  <td>100</td>   <td>50 </td>      <td>80 </td>         <td>50 </td>     <td>80 </td>      <td>50 </td>
+		</tr>
+		<tr>
+			<td><b>Aggron </b></td>	    <td>70 </td>   <td>110 </td>     <td>180 </td>	      <td>60 </td>     <td>60 </td>      <td>50 </td>
+		</tr>
+		<tr>
+			<td><b> Manectric </b></td> <td>70 </td>   <td>75 </td>	     <td>60 </td>         <td>105 </td>    <td>60 </td>      <td>105</td>
+		</tr>
+		<tr>
+			<td><b> Decidueye</b></td>  <td>78 </td>   <td>107 </td>     <td>75 </td>         <td>100 </td>    <td>100 </td>     <td>70 </td>
+		</tr>
+	   </table>
+	</div>
+
+
+</body>
+
+</html>
